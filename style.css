@@ -1,1 +1,29 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, Sans-Serif;
+  height: 150vh;
+}
+
+.btn-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+}
+
+.all-img-slide {
+  max-height: 500px;
+  object-fit: cover;
+}
